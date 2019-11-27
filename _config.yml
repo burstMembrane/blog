@@ -11,15 +11,3 @@ author_email: liamfpower@gmail.com
 
 
 
-collections:
-  portfolio:
-    output: true
-    div-id: true
-    year: true
-  writing:
-    output: true
-    subtitle: true
-    heading: true
-    div-id: true
-    chapternum: true
-
