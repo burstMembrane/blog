@@ -13,18 +13,7 @@
             </div>
         </div>
 
-        <div id="topnav">
-            <ul>
-                {% for post in site.posts %}
-                <li>
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                </li>
-                {% endfor %}
-            </ul>
-
-        </div>
-
-        {% for post in site.posts %}
+        {% include blogheader.html %} {% for post in site.posts %}
 
         <div class="textbox" markdown="1">
             <br>

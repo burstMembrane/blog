@@ -1,0 +1,10 @@
+<div id="topnav">
+    <ul>
+        {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl}}">{{ post.date  | date: "%d.%m.%y" }} {{ post.title }} </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
