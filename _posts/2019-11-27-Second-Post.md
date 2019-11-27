@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Arse and Knees
+title:  The Empty Canvas
 categories: [start, beginning]
 tags: [mediart, coding]
 
